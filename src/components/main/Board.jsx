@@ -12,8 +12,8 @@ function Board() {
             <Hexagon color="hextransparent" />
             <Hexagon color="hextransparent" />
             <Hexagon color="hextransparent" />
-            <Hexagon color="hexgreen" content="tree"  />
-            <Hexagon color="hexgreen" content="farm"  />
+            <Hexagon color="hexgreen"  troops="2" content="tree"  />
+            <Hexagon color="hexgreen"  troops="2" content="farm"  />
             <Hexagon color="hextransparent" />
             <Hexagon color="hextransparent" />
             <Hexagon color="hextransparent" />
@@ -22,7 +22,7 @@ function Board() {
             <Hexagon color="hextransparent" />
             <Hexagon color="hexgreen" troops="2" content="city" />
             <Hexagon color="hexgreen"  content="empty" />
-            <Hexagon color="hexgreen"   content="minerials"/>
+            <Hexagon color="hexgreen"  troops="2"  content="minerials"/>
             <Hexagon color="hexgreen"   content="rock"/>
             <Hexagon color="hexgreen" />
             <Hexagon color="hextransparent" />
