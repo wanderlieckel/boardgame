@@ -1,10 +1,14 @@
 import React from "react";
-
-// import { Container } from './styles';
+import "./Main.css";
+import Home from "./Home"
+import Board from "./Board"
 
 function Main() {
-  return <div className="main">Aqui é o Main</div>;
+  return <div className="main">
+      {/*<Home />*/}
+      <Board />
   
+  </div>;
 }
 
 export default Main;

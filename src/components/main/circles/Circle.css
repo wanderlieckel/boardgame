@@ -1,0 +1,15 @@
+.hexcircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.cityImg {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}

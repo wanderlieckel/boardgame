@@ -1,0 +1,41 @@
+    @media (min-width: 1250px) {
+        .board {
+            margin-top: 25px;
+            width: 1150px;
+            display: flex;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            justify-content: center;
+        }
+        .table {
+            background-color: #15151e;
+            border-radius: 5px;
+            width: 805px;
+            height: 805px;
+        }
+        .spotcontent {
+            background-color: #38383f;
+            border-radius: 5px;
+            width: 800px;
+            height: 750px;
+            margin-left: 2.5px;
+            margin-top: 2.5px;
+            padding-top: 50px;
+        }
+        .rowodd {
+            margin-top: -22.5px;
+            display: flex;
+            margin-left: 1px;
+        }
+        .roweven {
+            display: flex;
+            margin-left: 42px;
+            margin-top: -22.5px;
+        }
+        .panel {
+            background-color: wheat;
+            width: 250px;
+            height: 800px;
+            margin-left: 10px;
+        }
+    }
