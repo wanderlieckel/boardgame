@@ -1,0 +1,62 @@
+    @media (min-width: 1250px) {
+        .nav {
+            width: 145px;
+            background-color: #E10601;
+            position: fixed;
+            height: calc(100%);
+        }
+        .nav ul li {
+            list-style-type: none;
+            width: 145px;
+            margin-bottom: 10px;
+            height: 33px;
+            text-align: center;
+            font-size: 20px;
+            padding-top: 13px;
+            font-weight: 100;
+        }
+        .nav ul li:hover {
+            background-color: #930f0d;
+            cursor: pointer;
+            color: #E10601;
+            font-weight: 900;
+        }
+        .navlogo {
+            background-color: #930f0d;
+            height: 60px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-left: 10px;
+            font-weight: 900;
+            letter-spacing: 0.8px;
+            color: #fff
+        }
+        .navlogo:hover {
+            cursor: pointer;
+        }
+        .tomargin {
+            margin-top: 35px;
+        }
+        .navbutton {
+            background-color: #1f1f27;
+            height: 25px;
+            padding-top: 13px;
+            border-radius: 5px;
+            width: 100px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            margin-top: -8px;
+            text-align: center;
+            color: #fff;
+            font-weight: 100;
+        }
+        .navbutton:hover {
+            background-color: #2c2c38;
+            cursor: pointer;
+        }
+    }
+    
+    @media (min-width: 960px) {}
+    
+    @media (min-width: 550px) {}
