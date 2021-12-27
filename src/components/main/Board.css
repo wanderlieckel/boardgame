@@ -33,9 +33,79 @@
             margin-top: -22.5px;
         }
         .panel {
-            background-color: wheat;
             width: 250px;
             height: 800px;
             margin-left: 10px;
+            background-color: #15151e;
+            border-radius: 5px;
+        }
+        .timer {
+            width: 245px;
+            height: 80px;
+            background-color: #38383f;
+            border-radius: 5px;
+            margin-left: 2.5px;
+            margin-top: 2.5px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .labeltimer {
+            width: 240px;
+            margin-left: 5px;
+            margin-top: 5px;
+            font-weight: 900;
+            color: whitesmoke;
+            letter-spacing: 2px;
+        }
+        .playerLabel {
+            width: 100px;
+            margin-left: 5px;
+            font-weight: 600;
+            color: whitesmoke;
+            letter-spacing: 2px;
+        }
+        .playerinfo {
+            width: 100px;
+            color: red;
+        }
+        .phaseItem {
+            width: 245px;
+            height: 50px;
+            background-color: #38383f;
+            border-radius: 5px;
+            margin-left: 2.5px;
+            margin-top: 5px;
+            padding-top: 2px;
+        }
+        .faselabel {
+            margin-left: 5px;
+            font-weight: 600;
+            color: whitesmoke;
+            letter-spacing: 2px;
+        }
+        .fasedisc {
+            width: 100px;
+            color: red;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+        .InfoCard {
+            width: 245px;
+            height: 350px;
+            background-color: #38383f;
+            border-radius: 5px;
+            margin-left: 2.5px;
+            margin-top: 5px;
+            padding-top: 2px;
+        }
+        .chatCard {
+            width: 245px;
+            height: 293.5px;
+            background-color: #38383f;
+            border-radius: 5px;
+            margin-left: 2.5px;
+            margin-top: 5px;
+            padding-top: 2px;
         }
     }
