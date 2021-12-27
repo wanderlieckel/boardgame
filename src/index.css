@@ -92,10 +92,7 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-    line-height: 1;
+    background-color: #111;
 }
 
 ol,

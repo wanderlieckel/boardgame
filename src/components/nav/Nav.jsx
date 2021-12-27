@@ -26,8 +26,6 @@ function Nav() {
           <div className="perfilCoins">Coins:0</div>
         </div>
 
-        
-
       </ul>
     </div>
   );
